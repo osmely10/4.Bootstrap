@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordeon</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col">
+                <div class="accordion" id="temario">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="encabezado-1">
+                            <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#elemento-1"
+                                aria-expanded="true"
+                                aria-controles="elemento-1"
+                            >
+                                Capitulo #1
+                            </button>
+                        </h2>
+                            <div
+                                id="elemento-1"
+                                class="accordion-collapse collapse show"
+                                aria-labelledby="encabezado-1"
+                                data-bs-parent="#temario"                            
+                            >
+
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                     Delectus, aspernatur nulla quam voluptates, vel deserunt necessitatibus 
+                                     nemo perspiciatis cupiditate ipsa earum, consectetur beatae eius ex velit 
+                                     cumque? Debitis necessitatibus labore, non voluptates in quae. Sit eveniet 
+                                     ad accusantium, culpa in quae minus sequi vitae aut tenetur, nesciunt ipsa, 
+                                     nihil blanditiis!</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
